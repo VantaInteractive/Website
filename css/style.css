@@ -8430,7 +8430,7 @@ h1, h2, h3, h4, h5,
     font-weight: normal;
     font-size: 60px;
     line-height: .8;
-    font-family: "Helveticish", cursive; }
+    font-family: "Helvetica", sans-serif; }
     @media (max-width: 1199.98px) {
       #colorlib-aside #colorlib-logo {
         font-size: 40px; } }
