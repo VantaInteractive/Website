@@ -30,6 +30,24 @@
 	body[data-light-mode=dark] {
     	background-color: #000;
     	color: #eee;
+		
+	button {
+    	padding: 1em;
+    	font-size: 1em;
+    	background: #000;
+    	color: #fff;
+    	border: none;
+    	cursor: pointer;
+    	transition: .3s;
+	}
+
+	button:hover {
+    	opacity:.5;
+	}
+
+	body[data-light-mode="dark"] button {
+    	background-color: #fff;
+    	color: #000;
 	}
 	</style>
 </head>
