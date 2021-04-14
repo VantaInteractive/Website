@@ -23,19 +23,19 @@ $(function(){
     }
 
     // select desired colorwheel
-    var imageSrc = 'images/colorwheel1.png';
+    var imageSrc = 'images/websuite/colorwheel1.png';
     switch ($(canvas).attr('var')) {
         case '2':
-            imageSrc = 'images/colorwheel2.png';
+            imageSrc = 'images/websuite/colorwheel2.png';
             break;
         case '3':
-            imageSrc = 'images/colorwheel3.png';
+            imageSrc = 'images/websuite/colorwheel3.png';
             break;
         case '4':
-            imageSrc = 'images/colorwheel4.png';
+            imageSrc = 'images/websuite/colorwheel4.png';
             break;
         case '5':
-            imageSrc = 'images/colorwheel5.png';
+            imageSrc = 'images/websuite/colorwheel5.png';
             break;
     }
     image.src = imageSrc;
