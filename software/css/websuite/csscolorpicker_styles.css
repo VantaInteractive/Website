@@ -76,6 +76,6 @@ header a, a:visited {
     border-radius: 3px;
     box-shadow: 2px 2px 2px #444444;
     cursor: pointer;
-    height: 30px;
-    width: 30px;
+    height: 256px;
+    width: 256px;
 }
