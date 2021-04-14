@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
     <link rel="preload" as="style" href="css/align_style.css">
     <link rel="stylesheet" href="css/align_style.css">
-    <link rel="stylesheet" href='css/websuite/colorpicker_styles.css'>
+    <link href="css/websuite/colorpicker_styles.css" rel="stylesheet" type="text/css" />
     <!-- DARK MODE TOGGLE -->
     <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 <script>
@@ -63,20 +63,22 @@
         </div>
       </section>
 <!-- BEGIN CSS COLOR PICKER CODE -->
-                  <!-- preview element -->
+
+            <!-- preview element -->
             <div class="preview"></div>
 
-<div class="colorpicker" style="display:none">
+            <!-- colorpicker element -->
+            <div class="colorpicker" style="display:none">
                 <canvas id="picker" var="3" width="300" height="300"></canvas>
 
-    <div class="controls">
-        <div><label>R</label> <input type="text" id="rVal" /></div>
-        <div><label>G</label> <input type="text" id="gVal" /></div>
-        <div><label>B</label> <input type="text" id="bVal" /></div>
-        <div><label>RGB</label> <input type="text" id="rgbVal" /></div>
-        <div><label>HEX</label> <input type="text" id="hexVal" /></div>
-    </div>
-</div>
+                <div class="controls">
+                    <div><label>R</label> <input type="text" id="rVal" /></div>
+                    <div><label>G</label> <input type="text" id="gVal" /></div>
+                    <div><label>B</label> <input type="text" id="bVal" /></div>
+                    <div><label>RGB</label> <input type="text" id="rgbVal" /></div>
+                    <div><label>HEX</label> <input type="text" id="hexVal" /></div>
+                </div>
+            </div>
 <!-- END CSS COLOR PICKER CODE -->
     </main>
     <footer role="contentinfo" class="ui-section-footer">
