@@ -1,4 +1,3 @@
 # vantainteractive.github.io
-<html>
-  <meta http-equiv="Refresh" content="0; url='https://vantainteractive.github.io/index.html'" />
-  </html>
+
+Vanta Interactive will return soon. We're busy working on a few projects.
