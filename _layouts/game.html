@@ -1,0 +1,100 @@
+---
+layout: game
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang }}" class="scroll-smooth bg-header">
+    <head>
+        {% include head.html %}
+    </head>
+<body class="bg-header" style="::selection, ::-moz-selection {color: {{ page.accent_color }}}">
+        {% include header-game.html %}
+
+        {% include notice-container.html %}
+
+        <div class="landing-page flex row">
+            
+                <div class="landing-page-media">
+                {% if page.game_landing_image %}
+                    <img id="landing-image" src="{{ page.game_landing_image }}" alt="">
+                {% endif %}
+                {% if page.game_landing_video %}
+                    <video autoplay muted loop poster="{{ page.game_landing_video_poster }}" id="landing-video"><source src="{{ page.game_landing_video }}" type="video/mp4"/></video>
+                {% endif %}
+                </div>
+            <div class="landing-page-left z-index20 flex column justify-end">
+                <div class="flex row">
+                    {% if page.gamelogo_banner_img_link %}
+                        <img class="header-padding {{ page.gamelogo_banner_classes }}" src="{{ page.gamelogo_banner_img_link}}" alt="{{ page.gamelogo_banner_img_alt }}" width="750px !important">
+                        {% else %}
+                        <p class="{{ page.gamelogo_banner_classes }}">{{ page.game_name }}</p>
+                    {% endif %}
+                </div>
+                {{ page.gamelogo_banner_tagline_html }}
+                <div class="flex row padding-top-1rem">
+                    <p class="monospace rem1 lightgray">{{ page.metadata_engine }} {{ page.metadata_proglang }} {{ page.metadata_platforms }} {{ page.metadata_timespan }}</p>
+                </div>
+            </div>
+            <div class="landing-page-right z-index20 flex column justify-end">
+                {% if page.price_local %}
+                <p class="monospace semibold rem4 lightgray from-the-right header-padding">{{ page.price_local }}</p><p class="monospace semibold rem1-25 lightgray from-the-right header-padding">{{ page.price_usd }}</p>
+                {% else %}
+                <p class="monospace semibold rem4 lightgray from-the-right header-padding">{{ page.price_usd }}</p>
+                {% endif %}
+                <div class="flex row from-the-right">
+                    {% if page.landing_btn4_text %}<a class="article-button-light rem1 monospace medium" href="{{ page.landing_btn4_link }}">{{ page.landing_btn4_text }}</a>{% endif %}
+                    {% if page.landing_btn3_text %}<a class="article-button-light rem1 monospace medium" href="{{ page.landing_btn3_link }}">{{ page.landing_btn3_text }}</a>{% endif %}
+                    {% if page.landing_btn2_text %}<a class="article-button-light rem1 monospace medium" href="{{ page.landing_btn2_link }}">{{ page.landing_btn2_text }}</a>{% endif %}
+                    {% if page.landing_btn1_text %}<a class="article-button-light rem1 monospace medium" href="{{ page.landing_btn1_link }}">{{ page.landing_btn1_text }}</a>{% endif %}
+                    {% if page.game_landing_video %}<p class="article-button-dark rem1 monospace medium" id="video-control-btn"></p>{% endif %}
+                </div>
+                <div class="flex article centered">
+                    {% if page.rating == 'adult' %}
+                    <img src="{{ site.baseurl }}/images/ratings/rating_adult.png" class="rating-image" alt="{{ site.t[page.lang].rating }}: {{ site.t[page.lang].rating_adult }}">
+                    {% elsif page.rating == 'everyone' %}
+                    <img src="{{ site.baseurl }}/images/ratings/rating_everyone.png" class="rating-image" alt="{{ site.t[page.lang].rating }}: {{ site.t[page.lang].rating_everyone }}">
+                    {% elsif page.rating == 'notrated' %}
+                    <img src="{{ site.baseurl }}/images/ratings/rating_notrated.png" class="rating-image" alt="{{ site.t[page.lang].rating }}: {{ site.t[page.lang].rating_notrated }}">
+                    {% elsif page.rating == 'teen' %}
+                    <img src="{{ site.baseurl }}/images/ratings/rating_teen.png" class="rating-image" alt="{{ site.t[page.lang].rating }}: {{ site.t[page.lang].rating_teen }}">
+                    {% elsif page.rating == 'young' %}
+                    <img src="{{ site.baseurl }}/images/ratings/rating_young.png" class="rating-image" alt="{{ site.t[page.lang].rating }}: {{ site.t[page.lang].rating_young }}">
+                    {% endif %}
+                    {% if page.rating_desc_line1 %}
+                    <p class="post-text rem0-75 monospace medium lightgray">
+                        {% if page.rating_desc_line1 %}{{ page.rating_desc_line1 }}<br>{% endif %}
+                        {% if page.rating_desc_line2 %}{{ page.rating_desc_line2 }}<br>{% endif %}
+                        {% if page.rating_desc_line3 %}{{ page.rating_desc_line3 }}<br>{% endif %}
+                        {% if page.rating_desc_line4 %}{{ page.rating_desc_line4 }}<br>{% endif %}
+                        {% if page.rating_desc_line5 %}{{ page.rating_desc_line5 }}<br>{% endif %}
+                        {% if page.rating_desc_line6 %}{{ page.rating_desc_line6 }}<br>{% endif %}
+                        {% if page.rating_desc_line7 %}{{ page.rating_desc_line7 }}<br>{% endif %}
+                        {% if page.rating_desc_line8 %}{{ page.rating_desc_line8 }}<br>{% endif %}
+                        {% if page.rating_desc_line9 %}{{ page.rating_desc_line9 }}<br>{% endif %}
+                        {% if page.rating_desc_line10 %}{{ page.rating_desc_line10 }}<br>{% endif %}
+                    </p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        {% if page.only_landing %}
+        <div class="game-content post-content post z-index20">
+                <header class="post-header z-index25" id="post-header">
+                    <details class="toc">
+                        <summary class="post-text monospace rem1-25 lightgray">{{ site.t[page.lang].toc }}</summary>
+                        {{ page.toc }}
+                    </details>
+                </header>
+                <div class="post-content game-post">
+                    <p class="{{ page.indicator_type }} {{ page.indicator_class }} notice-text vantagray monospace semibold">{{ page.indicator_text_onpage }}</p>
+                        {{ content }}
+                </div>
+            </div>
+        {% else %}
+        <!-- Only landing -->
+        {% endif %}
+
+        {% include footer.html %}
+</body>
+</html>

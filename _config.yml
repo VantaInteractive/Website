@@ -1,0 +1,288 @@
+title: Vanta Interactive
+email: business.vantainteractive@gmail.com
+description: >- 
+  Official website for Vanta Interactive, the indie game, software and web development studio from Romania.
+baseurl: ""
+website: https://vantainteractive.com
+url: "https://vantainteractive.com"
+lang: en
+search: true
+search_full_content: true
+
+lunr:
+  search_within_pages: true
+
+twitter_username: "@realTECPlayz"
+mastodon_username: "@VantaInteractive@techhub.social"
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+exclude:
+  - CHANGELOG.md
+  - README.md
+  - SECURITY.md
+
+include:
+  - _includes
+  - _layouts
+  - js
+
+collections:
+  de:
+    output: true
+    permalink: /de/:title
+  en:
+    output: true
+    permalink: /en/:title
+  es:
+    output: true
+    permalink: /es/:title
+  fi:
+    output: true
+    permalink: /fi/:title
+  fr:
+    output: true
+    permalink: /fr/:title
+  nl:
+    output: true
+    permalink: /nl/:title
+  ro:
+    output: true
+    permalink: /ro/:title
+
+
+# Translations
+t:
+  de:
+    # Header, Footer, frequently used
+    posts: Beiträge
+    projects: Projekte
+    games: Spiele
+    software: Software
+    apps: Apps
+    about: Über uns
+    search: Suchen
+    tos: Nutzungsbedingungen
+    privacy: Datenschutzrichtlinie
+    status: Status
+    present: Gegenwärtig
+    allrights: Alle Rechte vorbehalten.
+    readmore: Mehr lesen
+    postshead: Neuigkeiten direkt aus dem Panoptikum
+    pagenotfound: Die angeforderte Seite konnte nicht gefunden werden.
+    homepage: Zurück zur Startseite
+    home: Startseite
+    toc: Inhaltsverzeichnis
+    
+    # Landing
+    indiegamedevstudio: Indie-Studio
+    from: aus
+    Romania: Rumänien
+    
+    # Rating titles
+    rating: Bewertung
+    rating_adult: Erwachsene
+    rating_everyone: Alle
+    rating_notrated: Nicht bewertet
+    rating_teen: Teenager
+    rating_young: Jung
+  en:
+    # Header, Footer, frequently used
+    posts: Posts
+    projects: Projects
+    games: Games
+    software: Software
+    apps: Apps
+    about: About
+    search: Search
+    tos: Terms of Service
+    privacy: Privacy Policy
+    status: Status
+    present: Present
+    allrights: All rights reserved.
+    readmore: Read More
+    postshead: News straight from the Panopticon
+    pagenotfound: The requested page could not be found.
+    homepage: Return to the home page
+    home: Index
+    toc: Table of Contents
+    
+    # Landing
+    indiegamedevstudio: Indie studio
+    from: from
+    Romania: Romania
+    
+    # Rating titles
+    rating: Rating
+    rating_adult: Adult
+    rating_everyone: Everyone
+    rating_notrated: Not Rated
+    rating_teen: Teen
+    rating_young: Young
+  es:
+    # Header, Footer, frequently used
+    posts: Publicaciones
+    projects: Proyectos
+    games: Juegos
+    software: Software
+    apps: Aplicaciones
+    about: Sobre nosotros
+    search: Buscar
+    tos: Términos de servicio
+    privacy: Política de privacidad
+    status: Estado
+    present: Presente
+    allrights: Todo los derechos reservados.
+    readmore: Leer más
+    postshead: Noticias directamente desde el Panóptico
+    pagenotfound: La página solicitada no pudo ser encontrada.
+    homepage: Regresar a la página de inicio
+    home: Página de inicio
+    toc: Table of Contents
+    
+    # Landing
+    indiegamedevstudio: Estudio independiente
+    from: de
+    Romania: Rumania
+    
+    # Rating titles
+    rating: Clasificación
+    rating_adult: Adultos
+    rating_everyone: Todos
+    rating_notrated: No clasificado
+    rating_teen: Adolescentes
+    rating_young: Joven
+  fi:
+    # Header, Footer, frequently used
+    posts: Viestit
+    projects: Projektit
+    games: Pelit
+    software: Ohjelmisto
+    apps: Sovellukset
+    about: Noin
+    search: Hae
+    tos: Käyttöehdot
+    privacy: Tietosuojakäytäntö
+    status: Tila
+    present: Esittää
+    allrights: Kaikki oikeudet pidätetään.
+    readmore: Lue lisää
+    postshead: Uutisia suoraan Panopticonista
+    pagenotfound: Pyydettyä sivua ei löytynyt.
+    homepage: Palaa etusivulle
+    home: Kotisivu
+    toc: Sisällysluettelo
+    
+    # Landing
+    indiegamedevstudio: Indie-studio
+    from: alkaen
+    Romania: Romania
+    
+    # Rating titles
+    rating: Luokitus
+    rating_adult: Aikuiset
+    rating_everyone: Kaikki
+    rating_notrated: Ei arvioitu
+    rating_teen: Teinit
+    rating_young: Nuori
+  fr:
+    # Header, Footer, frequently used
+    posts: Actualités
+    projects: Projets
+    games: Jeux
+    software: Software
+    apps: Applications
+    about: À propos
+    search: Recherche
+    tos: Conditions d'utilisation
+    privacy: Politique de Confidentialité
+    status: Statut
+    present: Présent
+    allrights: Tous droits réservés.
+    readmore: En savoir plus
+    postshead: Des nouvelles en direct du Panoptique
+    pagenotfound: La page demandée n'a pu être trouvée.
+    homepage: Retour à la page d'accueil
+    home: Page d'accueil
+    toc: Table of Contents
+    
+    # Landing
+    indiegamedevstudio: Studio indépendant
+    from: depuis
+    Romania: Roumanie
+    
+    # Rating titles
+    rating: Notation
+    rating_adult: Adultes
+    rating_everyone: Tout le monde
+    rating_notrated: Non classé
+    rating_teen: Adolescents
+    rating_young: Jeunes
+  nl:
+    # Header, Footer, frequently used
+    posts: Berichten
+    projects: Projecten
+    games: Spellen
+    software: Software
+    apps: Apps
+    about: Over
+    search: Zoekopdracht
+    tos: Servicevoorwaarden
+    privacy: Privacybeleid
+    status: Status
+    present: Werkelijk
+    allrights: Alle rechten voorbehouden.
+    readmore: Lees verder
+    postshead: News straight from the Panopticon
+    pagenotfound: The requested page could not be found.
+    homepage: Return to the home page
+    home: Index
+    toc: Table of Contents
+    
+    # Landing
+    indiegamedevstudio: Indie-studio
+    from: van
+    Romania: Roemenië
+    
+    # Rating titles
+    rating: Beoordeling
+    rating_adult: Volwassenen
+    rating_everyone: Iedereen
+    rating_notrated: Niet beoordeeld
+    rating_teen: Tieners
+    rating_young: Jongeren
+  ro:
+    # Header, Footer, frequently used
+    posts: Postări
+    projects: Proiecte
+    games: Jocuri
+    software: Software
+    apps: Aplicații
+    about: Despre
+    search: Căutare
+    tos: Termenii serviciului
+    privacy: Politica de Confidențialitate
+    status: Status
+    present: Prezent
+    allrights: Toate drepturile rezervate.
+    readmore: Citiți mai mult
+    postshead: Știri direct din Panopticon
+    pagenotfound: Pagina solicitată nu a putut fi găsită.
+    homepage: Reveniți la pagina de start
+    home: Acasă
+    toc: Table of Contents
+    
+    # Landing
+    indiegamedevstudio: Studio independent
+    from: din
+    Romania: România
+    
+    # Rating titles
+    rating: Evaluare
+    rating_adult: Adulți
+    rating_everyone: Toată lumea
+    rating_notrated: Ne-evaluat
+    rating_teen: Adolescenți
+    rating_young: Tineri

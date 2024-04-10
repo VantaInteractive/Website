@@ -1,0 +1,37 @@
+---
+layout: search
+---
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        {% include head.html %}
+</head>
+<body class="bg-header">
+        {% include header.html %}
+
+        {% include notice-container.html %}
+
+        <div class="page-content">
+                <div class="search-container articles-container">
+                    <div class="searchbox-container">
+                        <form id="site_search">
+                            <input class="searchbox monospace italic search-input rem1" type="text" id="search-box" name="query" placeholder="Enter your search term..."> 
+                        </form>
+                    </div> 
+                    <div class="search-results" id="search-results">
+                        <div class="query-results">
+                            <div id="error-message"></div>
+                        </div>
+                    </div>
+                </div>
+
+                {% include footer.html %}
+                <script src="{{ site.baseurl }}/js/lunr.min.js"></script>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+                <script src="{{ site.baseurl }}/js/search.js"></script>
+            </div>
+        </div>
+    </body>
+    
+</html>

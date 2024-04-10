@@ -1,0 +1,31 @@
+# raccoon production .gitignore file
+# The following will be excluded:
+
+# (testing and development)
+.hintrc
+/.ignore/
+.vscode
+
+# -- Jekyll --
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# -- Games --
+Project-Anubis.md
+Project-Hangar.md
+Project-Mountain.md
+images/logos/VO-Logo-NoBG-hz.png
+Project-Odyssey.md
+Project-Vidal.md
+
+# -- Languages --
+/ar/
+/cn/
+/jp/
+/ko/
+/pt/
+/uk/
+/vi/
