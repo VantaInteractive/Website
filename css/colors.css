@@ -45,6 +45,7 @@
 .darkgray-hover:hover {color: var(--darkgray) !important;}
 .black {color: var(--black) !important;}
 .bg-header {background-color: var(--vantagray) !important;}
+.bg-reader {background-color: var(--readerbg) !important;}
 .bg-transparent {background-color: var(--transparent) !important;}
 .text-active {background-color: var(--accent-color) !important; color: var(--darkgray) !important;}
 .text-active:hover {color: var(--accent-color) !important; background-color: var(--darkgray) !important;}

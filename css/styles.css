@@ -142,6 +142,10 @@
 .footnote::before {content: "["; font-variant-position: super;}
 .footnote::after {content: "]"; font-variant-position: super;}
 .footnotes {font-style: italic; font-size: var(--rem1);}
+.redacted-document p, .redacted-document p em .redacted-document ul, .redacted-document ul li, .redacted-coument a, .redacted-document li {color: var(--vantagray) !important; letter-spacing: -0.25px !important;}
+.redacted-document header .header-logo {width: var(--rem5-75) !important; height: var(--rem5-75) !important;}
+.redacted-document .post-title {padding-bottom: var(--rem5-75) !important;}
+.redacted-document hr {border: var(--headerbg-dark-transparent) solid 0.125rem; width: 100%;}
 
 .doc-column-right {flex-grow: 1; overflow: hidden;}
 .space-evenly {justify-content: space-evenly;}

@@ -1,0 +1,37 @@
+---
+layout: redacted_document
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang }}" class="scroll-smooth bg-reader">
+    <head>
+        {% include head.html %}
+    </head>
+<body class="bg-reader redacted-document">
+        <!-- Header begin -->
+        <header class="header header-padding bg-reader z-index100 from-the-right">
+                <div class="header-right from-the-right">
+                    <div class="header-branding">
+                        <img class="header-logo" src="{{ page.logo }}" alt="{{ page.logo_alt }}"/>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <div class="post-content post redacted-document">
+            {% if page.page_path %}
+                    <p class="medium italic">{{ page.page_path }}:</p>
+                {% endif %}
+            <div class="post-content lightgray rem1-15 monospace medium">
+            <h1 class="post-title rem2-5 black monospace semibold" itemprop="name headline">{{ page.title }}</h1>
+                {% if page.date %}
+                    <p class="post-meta">
+                        <time class="dt-published rem1 black monospace medium" datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}
+                    </time></p>
+                {% endif %}
+                {{ content }}
+            </div>
+        </div>
+</body>
+</html>

@@ -19,6 +19,7 @@
     --rem4: 4rem;
     --rem4-5: 4.5rem;
     --rem5: 5rem;
+    --rem5-75: 5.75rem;
     --rem6 :6rem;
     --rem7 :7rem;
     --rem8 :8rem;
@@ -199,6 +200,7 @@
 .relative {position: relative;}
 .absolute {position: absolute;}
 .fixed {position: fixed;}
+.redacted {letter-spacing: -0.25px !important;}
 
 .line-height-rem1 {line-height: 1rem;}
 .line-height-rem2 {line-height: 2rem;}
