@@ -1,5 +1,5 @@
 var currentDate = new Date();
-var rootPath = "http://127.0.0.1:4000/favicon/";
+var rootPath = "/favicon/";
 var logoPride = new Image();
 var logoLesbian = new Image();
 var logoGay = new Image();
