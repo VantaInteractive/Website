@@ -1,7 +1,7 @@
 ---
 layout: game
-lang: en
-locale: en_US
+lang: ro
+locale: ro_RO
 title: JumpGame
 description: 
 image_banner_link:
@@ -32,10 +32,10 @@ gamelogo_banner_img_link:
 gamelogo_banner_img_alt:
 
 rating: everyone
-rating_desc_line1: This product is suitable for everyone.
-rating_desc_line2: No microtransactions or DLC are present.
-rating_desc_line3: Does not contain violence.
-rating_desc_line4: No use of mild language.
+rating_desc_line1: Acest produs este potrivit pentru toată lumea.
+rating_desc_line2: Nu sunt prezente microtranzacții sau DLC.
+rating_desc_line3: Nu conține violență.
+rating_desc_line4: Nu conține limbaj licențios sau explicit.
 rating_desc_line5:
 rating_desc_line6:
 rating_desc_line7: 
@@ -46,7 +46,7 @@ price_usd:
 price_local:
 
 landing_btn1_link: https://www.dropbox.com/s/zdy9vxslgnftgqq/JumpGame.exe?dl=0
-landing_btn1_text: Download
+landing_btn1_text: Descărcați
 landing_btn2_link:
 landing_btn2_text:
 landing_btn3_link:

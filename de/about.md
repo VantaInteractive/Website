@@ -22,9 +22,9 @@ Später wurde aus einer Idee, die seit 2017 im Hintergrund lag, ein Teilzeit-Spi
 
 Andere öffentlich angekündigte oder angepriesene Projekte waren *Project CUBE* und *Frosted Planet*, beide befanden sich höchstens Wochen in der Entwicklung, bevor sie abgesagt wurden.
 
-Seitdem gab es keine öffentlichen Stellungnahmen, Neckereien oder Ankündigungen von uns.
+Seitdem gab es von uns keine öffentlichen Statements, Teaser oder Ankündigungen mehr.
 
 ## 2024
-Wir haben hinter den Kulissen an einigen Projekten gearbeitet, wir haben gelernt, dass wir uns erheblich verbessert haben.
+Wir haben hinter den Kulissen an einigen Projekten gearbeitet, wir haben gelernt und uns deutlich verbessert.
 
-Ab April 2024 – zeitgleich mit der Aktualisierung unserer Website – haben wir [Prisonia]({{ site.baseurl }}/{{ page.lang }}/games/Prisonia) angekündigt, ein Gefängnismanagementspiel. Prisonia befindet sich seit Januar 2024 in der ununterbrochenen Entwicklung. Das Spiel wird Ende des Monats im Early Access veröffentlicht und wird noch eine Weile (geschätzt 2025) monatliche Updates erhalten, bevor es in eine Bi-Version übergeht. monatlichen oder vierteljährlichen Aktualisierungszyklus, der schließlich zu einem langfristigen Support-Aktualisierungszyklus führt. Dies wird es uns ermöglichen, andere Projekte zu entwickeln (insbesondere die Sapphire Game Engine) und gleichzeitig weiterhin regelmäßige Updates liefern zu können.
+Zum 1. Juni 2024 haben wir – zeitgleich mit unserem Website-Update – [Prisonia]({{ site.baseurl }}/{{ page.lang }}/games/Prisonia) angekündigt, ein Gefängnismanagementspiel. Prisonia befindet sich seit Januar 2024 in der Entwicklung. Das Spiel wird später in diesem Jahr im Early Access veröffentlicht und wird noch eine Weile (voraussichtlich 2025) monatlich aktualisiert, bevor es zu einem zweimonatlichen oder vierteljährlichen Updatezyklus und schließlich zu einem Updatezyklus mit langfristigem Support übergeht. Dies ermöglicht es uns, andere Projekte zu entwickeln (insbesondere die Sapphire Game Engine) und gleichzeitig regelmäßige Updates bereitzustellen.

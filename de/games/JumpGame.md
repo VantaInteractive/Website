@@ -12,8 +12,18 @@ metadata_platforms: PC |
 metadata_timespan: 2020
 
 only_landing:
+toc:
+indicator_type:
+indicator_class:
+indicator_text:
+indicator_text_onpage:
 
 game_name: JumpGame
+accent_color: var(--jumpgame);
+
+game_landing_image: https://i.ibb.co/9rgrFwf/Map-City1.png
+game_landing_video:
+game_landing_video_poster:
 
 gamelogo_header_classes: jumpgame jumpgame-logo semibold rem3
 gamelogo_banner_classes: jumpgame jumpgame-logo semibold rem7
@@ -43,6 +53,5 @@ landing_btn3_link:
 landing_btn3_text:
 landing_btn4_link:
 landing_btn4_text:
-
 
 ---

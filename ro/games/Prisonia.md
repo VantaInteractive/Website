@@ -1,9 +1,9 @@
 ---
 layout: game
-lang: en
-locale: en_US
+lang: ro
+locale: ro_RO
 title: Prisonia
-description: Build and manage your own prisons
+description: Construiți și gestionați propriile închisori
 image_banner_link:
 image_banner_alt:
 metadata_engine: Unreal Engine 5.2.1 |
@@ -29,23 +29,23 @@ gamelogo_header_classes: kilotonco project-jailbird project-jailbird-logo semibo
 gamelogo_header_img: /images/logos/Prisonia-logo.png
 gamelogo_header_alt:
 gamelogo_banner_classes: kilotonco project-jailbird project-jailbird-logo semibold rem10
-gamelogo_banner_tagline_html: <div class="flex row"><p class="kilotonco regular rem2 lightgray">Build and manage your own&nbsp;</p><p class="kilotonco semibold rem2 white hover-oblique">prisons</p></div>
+gamelogo_banner_tagline_html: <div class="flex row"><p class="kilotonco regular rem2 lightgray">Construiti si gestionati propriile&nbsp;</p><p class="kilotonco semibold rem2 white hover-oblique">inchisori</p></div>
 gamelogo_banner_img_link: /images/logos/Prisonia-logo.png
 gamelogo_banner_img_alt:
 
 rating: teen
-rating_desc_line1: This product is not suitable for players under the age of 16.
-rating_desc_line2: No microtransactions or DLC are present.
-rating_desc_line3: Contains mild or serious violence.
-rating_desc_line4: Scant use of mild language.
-rating_desc_line5: Contains references to alcohol, drug and tobacco use.
-rating_desc_line6: Some scenes depict alcohol consumption, drug and tobacco use.
+rating_desc_line1: Acest produs nu este potrivit pentru jucători sub 16 ani.
+rating_desc_line2: Nu sunt prezente microtranzacții sau DLC.
+rating_desc_line3: Conține violență ușoară sau gravă.
+rating_desc_line4: Utilizarea redusă a limbajului explicit.
+rating_desc_line5: Conține referințe la consumul de alcool, droguri și tutun.
+rating_desc_line6: Unele scene descriu consumul de alcool, droguri și tutun.
 rating_desc_line7: 
 rating_desc_line8: 
 rating_desc_line9: 
 rating_desc_line10: 
 price_usd: $24.99
-price_local:
+price_local: €24.99
 
 landing_btn1_link: https://store.steampowered.com/
 landing_btn1_text: Steam

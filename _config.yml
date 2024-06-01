@@ -88,6 +88,10 @@ t:
     rating_notrated: Nicht bewertet
     rating_teen: Teenager
     rating_young: Jung
+    
+    # Banner
+    newgameannounced: Neues Spiel angekündigt!
+    learnmoreabout: Lerne mehr über
   en:
     # Header, Footer, frequently used
     posts: Posts
@@ -121,6 +125,10 @@ t:
     rating_notrated: Not Rated
     rating_teen: Teen
     rating_young: Young
+    
+    # Banner
+    newgameannounced: New game announced!
+    learnmoreabout: Learn more about
   es:
     # Header, Footer, frequently used
     posts: Publicaciones
@@ -154,6 +162,10 @@ t:
     rating_notrated: No clasificado
     rating_teen: Adolescentes
     rating_young: Joven
+    
+    # Banner
+    newgameannounced: ¡Nuevo juego anunciado!
+    learnmoreabout: Aprender más acerca de
   fi:
     # Header, Footer, frequently used
     posts: Viestit
@@ -187,6 +199,10 @@ t:
     rating_notrated: Ei arvioitu
     rating_teen: Teinit
     rating_young: Nuori
+    
+    # Banner
+    newgameannounced: Uusi peli julkistettu!
+    learnmoreabout: Lisätietoja
   fr:
     # Header, Footer, frequently used
     posts: Actualités
@@ -220,6 +236,10 @@ t:
     rating_notrated: Non classé
     rating_teen: Adolescents
     rating_young: Jeunes
+    
+    # Banner
+    newgameannounced: Nieuw spel aangekondigd!
+    learnmoreabout: En savoir plus sur
   nl:
     # Header, Footer, frequently used
     posts: Berichten
@@ -253,6 +273,10 @@ t:
     rating_notrated: Niet beoordeeld
     rating_teen: Tieners
     rating_young: Jongeren
+    
+    # Banner
+    newgameannounced: Nieuw spel aangekondigd!
+    learnmoreabout: Leer meer over
   ro:
     # Header, Footer, frequently used
     posts: Postări
@@ -286,3 +310,7 @@ t:
     rating_notrated: Ne-evaluat
     rating_teen: Adolescenți
     rating_young: Tineri
+    
+    # Banner
+    newgameannounced: Joc nou anunțat!
+    learnmoreabout: Citiți mai multe despre

@@ -6,9 +6,9 @@ title: Prisonia
 description: Construir y administrar prisiones
 image_banner_link:
 image_banner_alt:
-metadata_engine: Unreal Engine 4.27.2 |
+metadata_engine: Unreal Engine 5.2.1 |
 metadata_proglang: Blueprints |
-metadata_platforms: PC, Mobile |
+metadata_platforms: PC |
 metadata_timespan: 2024-Present
 
 only_landing: false
@@ -18,19 +18,19 @@ indicator_class:
 indicator_text:
 indicator_text_onpage:
 
-game_name: Prisonia
+game_name:
 accent_color: var(--project-jailbird);
 
-game_landing_image:
-game_landing_video: https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm
+game_landing_image: /images/games/Prisonia.png
+game_landing_video:
 game_landing_video_poster:
 
 gamelogo_header_classes: kilotonco project-jailbird project-jailbird-logo semibold rem3
-gamelogo_header_img:
+gamelogo_header_img: /images/logos/Prisonia-logo.png
 gamelogo_header_alt:
 gamelogo_banner_classes: kilotonco project-jailbird project-jailbird-logo semibold rem10
 gamelogo_banner_tagline_html: <div class="flex row"><p class="kilotonco regular rem2 lightgray">Construir y administrar&nbsp;</p><p class="kilotonco semibold rem2 white hover-oblique">prisiones</p></div>
-gamelogo_banner_img_link:
+gamelogo_banner_img_link: /images/logos/Prisonia-logo.png
 gamelogo_banner_img_alt:
 
 rating: teen
@@ -44,13 +44,13 @@ rating_desc_line7:
 rating_desc_line8: 
 rating_desc_line9: 
 rating_desc_line10: 
-price_usd: $19.99
-price_local:
+price_usd: $24.99
+price_local: €24.99
 
 landing_btn1_link: https://store.steampowered.com/
 landing_btn1_text: Steam
-landing_btn2_link: https://play.google.com/apps?id=com.vantainteractive.jailbird
-landing_btn2_text: Google Play
+landing_btn2_link:
+landing_btn2_text:
 landing_btn3_link:
 landing_btn3_text:
 landing_btn4_link:

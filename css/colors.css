@@ -62,6 +62,7 @@
 .project-odyssey {color: var(--project-odyssey);}
 .project-anubis {color: var(--project-anubis);}
 .project-jailbird {color: var(--white);}
+.project-jailbird-bg {background-color: var(--project-jailbird);}
 .header-brandname::selection, .header-logo::selection, .header-button::selection {color: var(--black); background-color: var(--brand);}
 .header-brandname::-moz-selection, .header-logo::-moz-selection, .header-button::-moz-selection {color: var(--black); background-color: var(--brand);}
 .project-mountain-logo::selection {color: var(--black); background-color: var(--project-mountain);}

@@ -22,9 +22,9 @@ Later, an idea that has been in the background since 2017 became a part-time gam
 
 Other publicly-announced or teased projects were *Project CUBE* and *Frosted Planet*, both were in development for at most, weeks, before they were cancelled.
 
-Ever since, there have been no public statements, teases or announcements from us.
+Ever since, there have been no public statements, teasers or announcements from us.
 
 ## 2024
-We have been working on a few projects behind the scenes, we have learned, we have improved significantly.
+We have been working on a few projects behind the scenes, we have learned, and we have improved significantly.
 
-As of April 2024 - concomitantly with our website update, we have announced [Prisonia]({{ site.baseurl }}/{{ page.lang }}/games/Prisonia), a prison management game. Prisonia has been in on-and-off development since January 2024. The game will release in Early Access at the end of the month, and will continue to receive monthly updates for a while (estimated 2025), before it moves to a bi-monthly or trimestrial update cycle, ultimately moving to a long-term support update cycle. This will allow us to develop other projects (notably the Sapphire Game Engine), while still being able to ship regular updates.
+As of June 1, 2024 - concomitantly with our website update, we have announced [Prisonia]({{ site.baseurl }}/{{ page.lang }}/games/Prisonia), a prison management game. Prisonia has been in on-and-off development since January 2024. The game will release in Early Access later this year, and will continue to receive monthly updates for a while (estimated 2025), before it moves to a bi-monthly or trimestrial update cycle, ultimately moving to a long-term support update cycle. This will allow us to develop other projects (notably the Sapphire Game Engine), while still being able to ship regular updates.
