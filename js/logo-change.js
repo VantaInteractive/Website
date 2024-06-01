@@ -1,5 +1,5 @@
 var currentDate = new Date();
-var rootPath = "/favicon/";
+var rootPath = "https://vantainteractive.com/favicon/";
 var logoPride = new Image();
 var logoLesbian = new Image();
 var logoGay = new Image();
